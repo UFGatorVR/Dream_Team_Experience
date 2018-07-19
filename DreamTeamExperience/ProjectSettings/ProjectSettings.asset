@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 15
-  productGUID: 9ab54841a7a83524b860672607d758d7
+  productGUID: 84261663d78a6b44fa873ee48c181806
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: DreamTeam
+  productName: DreamTeamExperience
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -663,8 +663,8 @@ PlayerSettings:
     UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: 64a0d7c0-dcd3-44d6-9aca-c4f25923f0c9
-  projectName: DreamTeam
+  cloudProjectId: 3d2cde99-d3da-4e86-9a72-e59ecff1fe58
+  projectName: DreamTeamExperience
   organizationId: drewgill89
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
