@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 430593030}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.5805594, g: 0.62036186, b: 0.7042009, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -113,67 +113,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &208173840
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: edc40406f07f9cf4990807aa8b0fc368, type: 3}
-  m_PrefabInternal: {fileID: 2121501754}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 2121501755}
-  - component: {fileID: 208173842}
-  - component: {fileID: 208173841}
-  m_Layer: 0
-  m_Name: mountain_Snow_000 (9)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!23 &208173841
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300000, guid: edc40406f07f9cf4990807aa8b0fc368,
-    type: 3}
-  m_PrefabInternal: {fileID: 2121501754}
-  m_GameObject: {fileID: 208173840}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
-  m_Materials:
-  - {fileID: 2100000, guid: 0060a88cd6252a146aeb6a9652d03869, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &208173842
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300000, guid: edc40406f07f9cf4990807aa8b0fc368,
-    type: 3}
-  m_PrefabInternal: {fileID: 2121501754}
-  m_GameObject: {fileID: 208173840}
-  m_Mesh: {fileID: 4300000, guid: edc40406f07f9cf4990807aa8b0fc368, type: 3}
 --- !u!1001 &373689373
 Prefab:
   m_ObjectHideFlags: 0
@@ -259,21 +198,11 @@ Prefab:
       objectReference: {fileID: 2100000, guid: 0060a88cd6252a146aeb6a9652d03869, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: edc40406f07f9cf4990807aa8b0fc368, type: 3}
-  m_RootGameObject: {fileID: 1296217659}
   m_IsPrefabParent: 0
---- !u!4 &373689374
+--- !u!4 &373689374 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400000, guid: edc40406f07f9cf4990807aa8b0fc368, type: 3}
   m_PrefabInternal: {fileID: 373689373}
-  m_GameObject: {fileID: 1296217659}
-  m_LocalRotation: {x: 0, y: 0.8983568, z: -0, w: -0.43926653}
-  m_LocalPosition: {x: -110.3, y: -6, z: 32.9}
-  m_LocalScale: {x: 2.6878128, y: 2.060694, z: 5.5456195}
-  m_Children: []
-  m_Father: {fileID: 960885651}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &430593029
 GameObject:
   m_ObjectHideFlags: 0
@@ -339,6 +268,48 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &450198816
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &511012923
 Prefab:
   m_ObjectHideFlags: 0
@@ -424,204 +395,11 @@ Prefab:
       objectReference: {fileID: 2100000, guid: 0060a88cd6252a146aeb6a9652d03869, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: edc40406f07f9cf4990807aa8b0fc368, type: 3}
-  m_RootGameObject: {fileID: 549623810}
   m_IsPrefabParent: 0
---- !u!4 &511012924
+--- !u!4 &511012924 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400000, guid: edc40406f07f9cf4990807aa8b0fc368, type: 3}
   m_PrefabInternal: {fileID: 511012923}
-  m_GameObject: {fileID: 549623810}
-  m_LocalRotation: {x: 0, y: 0.6397222, z: -0, w: 0.7686062}
-  m_LocalPosition: {x: -84.7, y: -6, z: 7.9}
-  m_LocalScale: {x: 2.271209, y: 1.9985867, z: 1.7983102}
-  m_Children: []
-  m_Father: {fileID: 960885651}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &517895873
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: edc40406f07f9cf4990807aa8b0fc368, type: 3}
-  m_PrefabInternal: {fileID: 669966748}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 669966749}
-  - component: {fileID: 517895875}
-  - component: {fileID: 517895874}
-  m_Layer: 0
-  m_Name: mountain_Snow_000 (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!23 &517895874
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300000, guid: edc40406f07f9cf4990807aa8b0fc368,
-    type: 3}
-  m_PrefabInternal: {fileID: 669966748}
-  m_GameObject: {fileID: 517895873}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
-  m_Materials:
-  - {fileID: 2100000, guid: 0060a88cd6252a146aeb6a9652d03869, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &517895875
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300000, guid: edc40406f07f9cf4990807aa8b0fc368,
-    type: 3}
-  m_PrefabInternal: {fileID: 669966748}
-  m_GameObject: {fileID: 517895873}
-  m_Mesh: {fileID: 4300000, guid: edc40406f07f9cf4990807aa8b0fc368, type: 3}
---- !u!1 &549623810
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: edc40406f07f9cf4990807aa8b0fc368, type: 3}
-  m_PrefabInternal: {fileID: 511012923}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 511012924}
-  - component: {fileID: 549623812}
-  - component: {fileID: 549623811}
-  m_Layer: 0
-  m_Name: mountain_Snow_000 (5)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!23 &549623811
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300000, guid: edc40406f07f9cf4990807aa8b0fc368,
-    type: 3}
-  m_PrefabInternal: {fileID: 511012923}
-  m_GameObject: {fileID: 549623810}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
-  m_Materials:
-  - {fileID: 2100000, guid: 0060a88cd6252a146aeb6a9652d03869, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &549623812
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300000, guid: edc40406f07f9cf4990807aa8b0fc368,
-    type: 3}
-  m_PrefabInternal: {fileID: 511012923}
-  m_GameObject: {fileID: 549623810}
-  m_Mesh: {fileID: 4300000, guid: edc40406f07f9cf4990807aa8b0fc368, type: 3}
---- !u!1 &635514091
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: edc40406f07f9cf4990807aa8b0fc368, type: 3}
-  m_PrefabInternal: {fileID: 1482819116}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1482819117}
-  - component: {fileID: 635514093}
-  - component: {fileID: 635514092}
-  m_Layer: 0
-  m_Name: mountain_Snow_000 (4)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!23 &635514092
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300000, guid: edc40406f07f9cf4990807aa8b0fc368,
-    type: 3}
-  m_PrefabInternal: {fileID: 1482819116}
-  m_GameObject: {fileID: 635514091}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
-  m_Materials:
-  - {fileID: 2100000, guid: 0060a88cd6252a146aeb6a9652d03869, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &635514093
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300000, guid: edc40406f07f9cf4990807aa8b0fc368,
-    type: 3}
-  m_PrefabInternal: {fileID: 1482819116}
-  m_GameObject: {fileID: 635514091}
-  m_Mesh: {fileID: 4300000, guid: edc40406f07f9cf4990807aa8b0fc368, type: 3}
 --- !u!1001 &669966748
 Prefab:
   m_ObjectHideFlags: 0
@@ -707,82 +485,11 @@ Prefab:
       objectReference: {fileID: 2100000, guid: 0060a88cd6252a146aeb6a9652d03869, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: edc40406f07f9cf4990807aa8b0fc368, type: 3}
-  m_RootGameObject: {fileID: 517895873}
   m_IsPrefabParent: 0
---- !u!4 &669966749
+--- !u!4 &669966749 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400000, guid: edc40406f07f9cf4990807aa8b0fc368, type: 3}
   m_PrefabInternal: {fileID: 669966748}
-  m_GameObject: {fileID: 517895873}
-  m_LocalRotation: {x: 0, y: -0.9802005, z: -0, w: -0.19800764}
-  m_LocalPosition: {x: 8.9, y: -2.8, z: 56.8}
-  m_LocalScale: {x: 1.6766441, y: 1.6766441, z: 1.676644}
-  m_Children: []
-  m_Father: {fileID: 960885651}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &670321389
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: edc40406f07f9cf4990807aa8b0fc368, type: 3}
-  m_PrefabInternal: {fileID: 1269988726}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1269988727}
-  - component: {fileID: 670321391}
-  - component: {fileID: 670321390}
-  m_Layer: 0
-  m_Name: mountain_Snow_000 (8)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!23 &670321390
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300000, guid: edc40406f07f9cf4990807aa8b0fc368,
-    type: 3}
-  m_PrefabInternal: {fileID: 1269988726}
-  m_GameObject: {fileID: 670321389}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
-  m_Materials:
-  - {fileID: 2100000, guid: 0060a88cd6252a146aeb6a9652d03869, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &670321391
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300000, guid: edc40406f07f9cf4990807aa8b0fc368,
-    type: 3}
-  m_PrefabInternal: {fileID: 1269988726}
-  m_GameObject: {fileID: 670321389}
-  m_Mesh: {fileID: 4300000, guid: edc40406f07f9cf4990807aa8b0fc368, type: 3}
 --- !u!1 &812843415
 GameObject:
   m_ObjectHideFlags: 0
@@ -908,67 +615,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1222917864
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: edc40406f07f9cf4990807aa8b0fc368, type: 3}
-  m_PrefabInternal: {fileID: 2120409049}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 2120409050}
-  - component: {fileID: 1222917866}
-  - component: {fileID: 1222917865}
-  m_Layer: 0
-  m_Name: mountain_Snow_000 (3)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!23 &1222917865
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300000, guid: edc40406f07f9cf4990807aa8b0fc368,
-    type: 3}
-  m_PrefabInternal: {fileID: 2120409049}
-  m_GameObject: {fileID: 1222917864}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
-  m_Materials:
-  - {fileID: 2100000, guid: 0060a88cd6252a146aeb6a9652d03869, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &1222917866
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300000, guid: edc40406f07f9cf4990807aa8b0fc368,
-    type: 3}
-  m_PrefabInternal: {fileID: 2120409049}
-  m_GameObject: {fileID: 1222917864}
-  m_Mesh: {fileID: 4300000, guid: edc40406f07f9cf4990807aa8b0fc368, type: 3}
 --- !u!1001 &1269988726
 Prefab:
   m_ObjectHideFlags: 0
@@ -1054,82 +700,11 @@ Prefab:
       objectReference: {fileID: 2100000, guid: 0060a88cd6252a146aeb6a9652d03869, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: edc40406f07f9cf4990807aa8b0fc368, type: 3}
-  m_RootGameObject: {fileID: 670321389}
   m_IsPrefabParent: 0
---- !u!4 &1269988727
+--- !u!4 &1269988727 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400000, guid: edc40406f07f9cf4990807aa8b0fc368, type: 3}
   m_PrefabInternal: {fileID: 1269988726}
-  m_GameObject: {fileID: 670321389}
-  m_LocalRotation: {x: 0, y: -0.8699443, z: -0, w: 0.49315006}
-  m_LocalPosition: {x: -88.1, y: -5.5, z: 7.4}
-  m_LocalScale: {x: 3.0789514, y: 3.078954, z: 3.4811392}
-  m_Children: []
-  m_Father: {fileID: 960885651}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1296217659
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: edc40406f07f9cf4990807aa8b0fc368, type: 3}
-  m_PrefabInternal: {fileID: 373689373}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 373689374}
-  - component: {fileID: 1296217661}
-  - component: {fileID: 1296217660}
-  m_Layer: 0
-  m_Name: mountain_Snow_000 (7)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!23 &1296217660
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300000, guid: edc40406f07f9cf4990807aa8b0fc368,
-    type: 3}
-  m_PrefabInternal: {fileID: 373689373}
-  m_GameObject: {fileID: 1296217659}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
-  m_Materials:
-  - {fileID: 2100000, guid: 0060a88cd6252a146aeb6a9652d03869, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &1296217661
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300000, guid: edc40406f07f9cf4990807aa8b0fc368,
-    type: 3}
-  m_PrefabInternal: {fileID: 373689373}
-  m_GameObject: {fileID: 1296217659}
-  m_Mesh: {fileID: 4300000, guid: edc40406f07f9cf4990807aa8b0fc368, type: 3}
 --- !u!1001 &1313315438
 Prefab:
   m_ObjectHideFlags: 0
@@ -1215,21 +790,11 @@ Prefab:
       objectReference: {fileID: 2100000, guid: 0060a88cd6252a146aeb6a9652d03869, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: edc40406f07f9cf4990807aa8b0fc368, type: 3}
-  m_RootGameObject: {fileID: 1939230636}
   m_IsPrefabParent: 0
---- !u!4 &1313315439
+--- !u!4 &1313315439 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400000, guid: edc40406f07f9cf4990807aa8b0fc368, type: 3}
   m_PrefabInternal: {fileID: 1313315438}
-  m_GameObject: {fileID: 1939230636}
-  m_LocalRotation: {x: 0, y: -0.8699443, z: -0, w: 0.49315006}
-  m_LocalPosition: {x: -17.7, y: -5.5, z: 57.4}
-  m_LocalScale: {x: 3.0789514, y: 3.078954, z: 3.4811392}
-  m_Children: []
-  m_Father: {fileID: 960885651}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1482819116
 Prefab:
   m_ObjectHideFlags: 0
@@ -1315,21 +880,11 @@ Prefab:
       objectReference: {fileID: 2100000, guid: 0060a88cd6252a146aeb6a9652d03869, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: edc40406f07f9cf4990807aa8b0fc368, type: 3}
-  m_RootGameObject: {fileID: 635514091}
   m_IsPrefabParent: 0
---- !u!4 &1482819117
+--- !u!4 &1482819117 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400000, guid: edc40406f07f9cf4990807aa8b0fc368, type: 3}
   m_PrefabInternal: {fileID: 1482819116}
-  m_GameObject: {fileID: 635514091}
-  m_LocalRotation: {x: 0, y: 0.8434201, z: -0, w: -0.53725463}
-  m_LocalPosition: {x: 14.896818, y: -6, z: 48.785336}
-  m_LocalScale: {x: 1.8401527, y: 1.4108094, z: 3.7966878}
-  m_Children: []
-  m_Father: {fileID: 960885651}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1910428144
 GameObject:
   m_ObjectHideFlags: 0
@@ -1417,67 +972,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1939230636
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: edc40406f07f9cf4990807aa8b0fc368, type: 3}
-  m_PrefabInternal: {fileID: 1313315438}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1313315439}
-  - component: {fileID: 1939230638}
-  - component: {fileID: 1939230637}
-  m_Layer: 0
-  m_Name: mountain_Snow_000 (6)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!23 &1939230637
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300000, guid: edc40406f07f9cf4990807aa8b0fc368,
-    type: 3}
-  m_PrefabInternal: {fileID: 1313315438}
-  m_GameObject: {fileID: 1939230636}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
-  m_Materials:
-  - {fileID: 2100000, guid: 0060a88cd6252a146aeb6a9652d03869, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &1939230638
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300000, guid: edc40406f07f9cf4990807aa8b0fc368,
-    type: 3}
-  m_PrefabInternal: {fileID: 1313315438}
-  m_GameObject: {fileID: 1939230636}
-  m_Mesh: {fileID: 4300000, guid: edc40406f07f9cf4990807aa8b0fc368, type: 3}
 --- !u!1001 &2120409049
 Prefab:
   m_ObjectHideFlags: 0
@@ -1563,21 +1057,11 @@ Prefab:
       objectReference: {fileID: 2100000, guid: 0060a88cd6252a146aeb6a9652d03869, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: edc40406f07f9cf4990807aa8b0fc368, type: 3}
-  m_RootGameObject: {fileID: 1222917864}
   m_IsPrefabParent: 0
---- !u!4 &2120409050
+--- !u!4 &2120409050 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400000, guid: edc40406f07f9cf4990807aa8b0fc368, type: 3}
   m_PrefabInternal: {fileID: 2120409049}
-  m_GameObject: {fileID: 1222917864}
-  m_LocalRotation: {x: 0, y: 0.8288424, z: -0, w: 0.5594822}
-  m_LocalPosition: {x: -87.3, y: -4.5, z: 37.4}
-  m_LocalScale: {x: 1.8401526, y: 1.4108094, z: 3.796688}
-  m_Children: []
-  m_Father: {fileID: 960885651}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2121501754
 Prefab:
   m_ObjectHideFlags: 0
@@ -1663,18 +1147,8 @@ Prefab:
       objectReference: {fileID: 2100000, guid: 0060a88cd6252a146aeb6a9652d03869, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: edc40406f07f9cf4990807aa8b0fc368, type: 3}
-  m_RootGameObject: {fileID: 208173840}
   m_IsPrefabParent: 0
---- !u!4 &2121501755
+--- !u!4 &2121501755 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400000, guid: edc40406f07f9cf4990807aa8b0fc368, type: 3}
   m_PrefabInternal: {fileID: 2121501754}
-  m_GameObject: {fileID: 208173840}
-  m_LocalRotation: {x: 0, y: -0.051712263, z: -0, w: 0.99866205}
-  m_LocalPosition: {x: -48.3, y: -5.5, z: 45.7}
-  m_LocalScale: {x: 3.3494425, y: 2.5720463, z: 3.786964}
-  m_Children: []
-  m_Father: {fileID: 960885651}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
