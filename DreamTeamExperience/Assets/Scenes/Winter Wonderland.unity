@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -124,6 +124,7 @@ GameObject:
   - component: {fileID: 177599043}
   - component: {fileID: 177599042}
   - component: {fileID: 177599041}
+  - component: {fileID: 177599044}
   m_Layer: 0
   m_Name: Snowman_LOD2
   m_TagString: Untagged
@@ -183,12 +184,26 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 177599040}
   m_LocalRotation: {x: 0.0065963315, y: 0.99775237, z: -0.020771965, w: 0.06336564}
-  m_LocalPosition: {x: -38.293064, y: 0, z: -148.9}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_LocalPosition: {x: 0, y: -0.33, z: 5.34}
+  m_LocalScale: {x: 2.6230643, y: 2.1422033, z: 1.4345798}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 2.424, y: 172.74501, z: 0.60400003}
+--- !u!64 &177599044
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 177599040}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300004, guid: 9149b010c2de52f49ad44dee5494fd00, type: 3}
 --- !u!1 &243255182
 GameObject:
   m_ObjectHideFlags: 0
@@ -5022,6 +5037,24 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1127494947 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 130108, guid: a0caed2329b1ff545b145d48d6ef85d7, type: 2}
+  m_PrefabInternal: {fileID: 1422311703}
+--- !u!64 &1127494951
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1127494947}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: edc40406f07f9cf4990807aa8b0fc368, type: 3}
 --- !u!1 &1195915535
 GameObject:
   m_ObjectHideFlags: 0
@@ -5185,11 +5218,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400794, guid: a0caed2329b1ff545b145d48d6ef85d7, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -53
       objectReference: {fileID: 0}
     - target: {fileID: 400794, guid: a0caed2329b1ff545b145d48d6ef85d7, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 203.3
+      value: 178
       objectReference: {fileID: 0}
     - target: {fileID: 400794, guid: a0caed2329b1ff545b145d48d6ef85d7, type: 2}
       propertyPath: m_LocalRotation.x
