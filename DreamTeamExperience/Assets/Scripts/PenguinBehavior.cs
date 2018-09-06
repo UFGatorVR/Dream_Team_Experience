@@ -23,17 +23,17 @@ public class PenguinBehavior : MonoBehaviour {
 
         if(isWandering == false){
             StartCoroutine(Wander());
-        } 
-        if(isRotatingRight == true){
+        }
+        else if(isRotatingRight == true){
             transform.Rotate(transform.up* Time.deltaTime);
         }
-        if (isRotatingLeft == true)
+        else if (isRotatingLeft == true)
         {
             transform.Rotate(transform.up * -Time.deltaTime);
         }
-        if(isWalking == true){
-            transform.position += transform.forward * moveSpeed * Time.deltaTime;
-        }
+
+        transform.position = transform.forward * moveSpeed * Time.deltaTime;
+
 
 	}
     IEnumerator Wander(){
