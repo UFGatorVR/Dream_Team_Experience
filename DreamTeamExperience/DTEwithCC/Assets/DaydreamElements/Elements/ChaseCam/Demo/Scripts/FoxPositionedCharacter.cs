@@ -66,21 +66,24 @@ namespace DaydreamElements.Chase {
     }
 
     void OnTriggerEnter(Collider c) {
-      if (c.GetComponentInChildren<CollectibleCoin>() == null) {
-        return;
-      }
+          if (c.gameObject.CompareTag("Pick Up")){
+                c.gameObject.SetActive(false);
+          }
+          if (c.GetComponentInChildren<CollectibleCoin>() == null) {
+            return;
+          }
 
-      // Let's make sure the fox is facing this coin before jumping.
-      const float maximumFacingAngle = 45.0f;
-      float angleToCoin = Vector3.Angle(
-        transform.forward, c.transform.position - transform.position);
+                // Let's make sure the fox is facing this coin before jumping.
+                const float maximumFacingAngle = 45.0f;
+          float angleToCoin = Vector3.Angle(
+            transform.forward, c.transform.position - transform.position);
 
-      if (Mathf.Abs(angleToCoin) > maximumFacingAngle) {
-        return;
-      }
+          if (Mathf.Abs(angleToCoin) > maximumFacingAngle) {
+            return;
+          }
 
-      Debug.Log("Jumping fox... trigger entered: " + c.gameObject.name);
-      foxAnimator.SetTrigger("pickup");
+          Debug.Log("Jumping fox... trigger entered: " + c.gameObject.name);
+          foxAnimator.SetTrigger("pickup");
     }
   }
 }
